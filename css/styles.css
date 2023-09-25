@@ -183,13 +183,14 @@ p {
     background: var(--navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
-
-
-
     background-image: url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
+
 }
 
 img {
@@ -270,11 +271,7 @@ img {
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
-    background-repeat: 4px;
-
-
-
-
+    border-radius: 4px;
 }
 
 
