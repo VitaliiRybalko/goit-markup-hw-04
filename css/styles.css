@@ -441,16 +441,7 @@ img {
     justify-content: center;
   
 }
-.sm-icon{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding: 12px;
-    background-repeat: 50%;
-    width: 40px;
-    height: 40px;
 
-}
 
 
 /* footer */
