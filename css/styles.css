@@ -181,8 +181,13 @@ p {
     background: var(--navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
-
-
+    
+    
+    
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
 img {
@@ -254,6 +259,16 @@ img {
     padding: 120px 0;
 
 }
+.icon-section-two{
+    width: 264px;
+    height: 112px;
+    background-color: var(--cloud);
+    
+
+        
+    
+    }
+       
 
 .section-two-list-item {
     width: calc((100% - 72px) / 4);
@@ -510,9 +525,9 @@ a {
 }
 
 
-.navlink:hover,
-.navlink:focus,
-.navlink:active {
+.header-list-item:hover,
+.header-list-item:focus,
+.header-list-item:active {
     color: var(--blue);
 
 }
