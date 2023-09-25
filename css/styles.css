@@ -237,6 +237,7 @@ img {
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -433,6 +434,24 @@ img {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
 }
+.sm-teammates{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+  
+}
+.sm-icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 12px;
+    background-repeat: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
 
 /* footer */
 .footer {
