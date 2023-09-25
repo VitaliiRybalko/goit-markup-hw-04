@@ -454,9 +454,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sm-icon-link:hover,
+.sm-icon-link:focus{
+    background-color: var(--blue);
+}
+.icon-svg{
+    fill: var(--cloud);
 }
 
 
+.sm-icon{
+    
+}
 
 
 /* footer */
