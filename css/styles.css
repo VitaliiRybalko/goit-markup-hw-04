@@ -441,7 +441,7 @@ img {
     justify-content: center;
   
 }
-.sm-ikon{
+.sm-icon{
     width: 40px;
     height: 40px;
 }
@@ -449,6 +449,7 @@ img {
     width: 100%;
     height: 100%;
     background-color: var(--iris);
+    
     border-radius: 50%;
     display: flex;
     align-items: center;
