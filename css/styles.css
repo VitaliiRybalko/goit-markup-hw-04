@@ -28,6 +28,10 @@ p {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+
 
 }
 
@@ -60,6 +64,7 @@ p {
     padding-top: 24px;
     padding-bottom: 24px;
     display: inline-block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Header */
@@ -74,6 +79,10 @@ p {
     padding-top: 24px;
     padding-bottom: 24px;
     display: inline-block;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 
 }
@@ -189,8 +198,9 @@ p {
     height: 4px;
     border-radius: 2px;
     background: var(--blue);
-    border: -1px;
-    
+    position: absolute;
+    left: 0;
+     bottom: -1px;    
 
 }
 
