@@ -483,7 +483,7 @@ img {
     font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
@@ -497,6 +497,7 @@ img {
     align-items: center;
     justify-content: center;
     margin: 0;
+    padding: 0;
 }
 .customers-icon{
 
@@ -525,7 +526,7 @@ img {
     align-items: center;
     justify-content: center;
     color:var(--customers-icon);
-    
+
 
 
 }
