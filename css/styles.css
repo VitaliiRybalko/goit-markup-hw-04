@@ -180,6 +180,20 @@ p {
     color: #404bbf;
 }
 
+/* PSEUDO-ELEMENT */
+
+.current::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--blue);
+    border: -1px;
+    
+
+}
+
 /* Section */
 .section-hero {
     background: var(--navy-blue);
