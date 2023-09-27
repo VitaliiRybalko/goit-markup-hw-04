@@ -696,7 +696,7 @@ body {
 }
 
 .card-link:hover .overlay-text,
-.card-link:hover .overlay-text{
+.card-link:focus .overlay-text{
     transform: translateY(0%);
 }
 .card-link:hover,
