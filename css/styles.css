@@ -978,9 +978,10 @@ footer p {
 
 
 }
-.is-hiden{
+.is-hidden{
     visibility: hidden;
     pointer-events: none;
+    
 
 }
 .modal{
