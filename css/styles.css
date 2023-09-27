@@ -966,4 +966,8 @@ footer p {
     letter-spacing: 0.02em;
 }
 
+.modal-container{
+    position: fixed;
+}
+
   
